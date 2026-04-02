@@ -4,6 +4,7 @@ const path = require('path');
 const db = new Database(path.join(__dirname, 'strava.db'));
 db.pragma('journal_mode = WAL');
 
+
 db.exec(`
   CREATE TABLE IF NOT EXISTS activities (
     id                   INTEGER PRIMARY KEY,
