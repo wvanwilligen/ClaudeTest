@@ -1,1 +1,13 @@
+# Environment & secrets
 .env
+
+# SQLite database
+*.db
+*.db-shm
+*.db-wal
+
+# Dependencies
+node_modules/
+
+# macOS
+.DS_Store
